@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-attachment: fixed;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+.bg { 
+  
+  background-image: url("https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/main.jpg");
+
+
+  height: 100%; 
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
+
+}
+
+ 
+
