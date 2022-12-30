@@ -30,7 +30,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 8%;
+  padding: 18px 60%;
   transition: background 1s;
   
 
@@ -86,15 +86,17 @@ nav:hover ul li a{
 
 .content h1{
   font-size: 98px;
-  line-height: 140px;
+  line-height: 30px;
   font-weight: 600;
   opacity: 0;
 
 }
 
 .content p{
-  max-width: 500px;
-  line-height: 28px;
+  max-width: 350px;
+  font-size: 20px;
+  text-shadow: 2px 2px 2px rgb(246, 242, 242);
+  line-height: 25px;
   opacity: 0;
 }
 
