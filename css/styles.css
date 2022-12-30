@@ -119,3 +119,37 @@ nav:hover ul li a{
 p.slide {
   animation-delay: 2s;
 }
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+img{
+  border-radius: 8px; 
+  height: 590px;
+}
+.hi {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover img {
+  opacity: 1;
+}
+
+.container:hover .hi {
+  opacity: 1;
+}
+
+.text {
+  background-color: #7e817e;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
