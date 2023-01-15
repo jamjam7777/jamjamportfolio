@@ -149,3 +149,17 @@ p.slide {
 .hovering:hover  img.mug2 {
   opacity: 1;
 }
+
+.conact-container {
+  height: 100vh;
+}
+
+.contact-head {
+  background: rgb(232, 219, 219);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+}
+
