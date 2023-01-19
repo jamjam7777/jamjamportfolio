@@ -25,7 +25,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 18px 60%;
-  transition: background 0.5s;
+  transition: 0.5s;
 }
 
 nav ul li {
@@ -155,40 +155,59 @@ p.slide {
 }
 
 .hovering img.mug2 {
-    position:absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    /* object-fit: contain; */
-    opacity: 0;
-    transition: opacity .2s;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* object-fit: contain; */
+  opacity: 0;
+  transition: opacity 0.2s;
 }
 
-.hovering:hover  img.mug2 {
+.hovering:hover img.mug2 {
   opacity: 1;
 }
 
 .conact-container {
+  box-sizing: border-box;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 5rem;
+  text-align: center;
 }
 
 .contact-head {
-  background: rgb(232, 219, 219);
-  display: flex;
-  flex-direction: row;
+  float: right;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 40px;
   align-items: center;
-  justify-content: center;
-  height: 300px;
+  text-align: center;
+  height: 500px;
+  margin: 30px;
+  margin-right: 50px;
+  margin-bottom: 70px;
+  line-height: 2;
+  color: black;
+  background: rgb(108, 7, 108);
+  opacity: 80%;
+}
+
+.contact-head h1 {
+  font-size: 80px;
 }
 
 .icons {
-  background:rgb(82, 75, 75);
+  background: rgb(82, 75, 75);
   display: flex;
   justify-content: center;
   padding: 0.8rem 0;
 }
-.icons li{
+.icons li {
   list-style-type: none;
   background: rgb(108, 7, 108);
   color: rgb(232, 219, 219);
@@ -204,57 +223,69 @@ p.slide {
   transition: all 0.3s ease-in-out;
 }
 .icons li:hover {
-  background:rgb(232, 219, 219);
+  background: rgb(232, 219, 219);
   color: black;
 }
+
+.email {
+  background: rgb(232, 219, 219);
+  opacity: 0.7;
+  float: left;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 40px;
+  padding-left: 100px;
+  padding-right: 50px;
+  height: 500px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 70px;
+}
+
 .email-link {
-  border: 2px solid rgb(105, 67, 105);
-  border-radius: 5px;
-  padding: 10px 22px;
+  border: 10px solid rgb(105, 67, 105);
+  border-radius: 8px;
+  padding: 20px 40px;
 }
 
 /* //test/// */
 
 @media only screen and (max-width: 768px) {
   .navbar {
-      position: fixed;
-      left: -100%;
-      top: 5rem;
-      flex-direction: column;
-      background-color: #fff;
-      width: 100%;
-      border-radius: 10px;
-      text-align: center;
-      transition: 0.3s;
-      box-shadow:
-          0 10px 27px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    left: -100%;
+    top: 5rem;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
   }
 
   .navbar.active {
-      left: 0;
+    left: 0;
   }
 
   .nav-item {
-      margin: 2.5rem 0;
+    margin: 2.5rem 0;
   }
 
   .hamburger {
-      display: block;
-      cursor: pointer;
+    display: block;
+    cursor: pointer;
   }
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
-}
+  }
 
-.hamburger.active .bar:nth-child(1) {
+  .hamburger.active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
-}
+  }
 
-.hamburger.active .bar:nth-child(3) {
+  .hamburger.active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
+  }
 }
-
-}
-
-
