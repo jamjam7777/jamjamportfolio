@@ -193,11 +193,11 @@ p.slide {
 .contact-head {
   float: right;
   box-sizing: border-box;
-  width: 47%;
+  display: flex;
+  width: 40%;
   padding: 80px;
-  align-items: center;
   text-align: center;
-  height: 500px;
+  height: 40%;
   margin: 15px;
   margin-right: 20px;
   line-height: 2;
@@ -208,6 +208,7 @@ p.slide {
 
 .contact-head h1 {
   font-size: 50px;
+  display: flex;
 }
 
 .icons-container {
@@ -246,12 +247,13 @@ p.slide {
 
 .email {
   background: rgb(232, 219, 219);
+  display: flex;
   opacity: 0.7;
   float: left;
   box-sizing: border-box;
-  width: 47%;
+  width: 40%;
   padding: 40px;
-  height: 500px;
+  height: 40%;
   margin: 15px;
   margin-right: 20px;
   margin-bottom: 70px;
@@ -271,6 +273,7 @@ p.slide {
 
 .email-link {
   border: 10px solid rgb(105, 67, 105);
+  display: flex;
   border-radius: 8px;
   padding: 20px 40px;
   text-decoration: none;
