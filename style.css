@@ -137,8 +137,9 @@ nav:hover ul li a {
 }
 
 .content {
-  margin-top: 9%;
+  margin-top: 20%;
   margin-left: 9%;
+  display: flex;
   color: rgb(82, 75, 75);
   box-sizing: border-box;
 }
@@ -146,13 +147,15 @@ nav:hover ul li a {
 .content h1 {
   font-size: 98px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 400;
   opacity: 0;
+  display: flex;
 }
 
 .content p {
   max-width: 350px;
   font-size: 20px;
+  display: flex;
   text-shadow: 1px 1px 1px rgb(246, 242, 242);
   line-height: 25px;
   opacity: 0;
@@ -308,6 +311,7 @@ p.slide {
   padding-top: 30px;
   padding-bottom: 75px;
   text-align: center;
+  display: flex;
 }
 
 .email-link-container {
@@ -328,6 +332,9 @@ p.slide {
     display: none;
   }
 
+  .resume-button {
+    border: 0px 
+  }
 
 #hamburger-icon {
   display: block;
