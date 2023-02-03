@@ -206,6 +206,22 @@ p.slide {
   line-height: 2;
 }
 
+.column-mug {
+  float: left;
+  box-sizing: border-box;
+  width: 40%;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 50px;
+  height: 500px;
+  margin: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+  color: rgb(82, 75, 75);
+  line-height: 2;
+}
+
 .hovering {
   position: relative;
 }
@@ -338,6 +354,27 @@ p.slide {
 
 #hamburger-icon {
   display: block;
+}
+.column {
+  width: 60%;
+  height: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.column-mug {
+  padding-top: 70px;
+  height: 100%;
+  width: 60%;
+  text-align: center;
+}
+
+.about-p {
+  font-size: 50px;
+  padding-top: 30px;
+  padding-bottom: 75px;
+  text-align: center;
+  display: flex;
 }
 
 }
