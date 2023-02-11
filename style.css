@@ -142,7 +142,7 @@ nav:hover ul li a {
 
 .content {
   margin-top: 13%;
-  margin-left: 9%;
+  margin-left: 0;
   display: flex;
   color: rgb(82, 75, 75);
   box-sizing: border-box;
@@ -152,8 +152,10 @@ nav:hover ul li a {
   font-size: 98px;
   line-height: 100px;
   font-weight: 400;
+  margin-left: 13%;
   opacity: 0;
   display: flex;
+  position: absolute;
 }
 
 .content p {
@@ -162,9 +164,11 @@ nav:hover ul li a {
   display: flex;
   line-height: 25px;
   opacity: 0;
-  padding-top: 9%;
+  padding-top: 13%;
   padding-left: 0%;
+  margin-left: 25%;
   font-weight: bold;
+  position: absolute;
 }
 
 .slide {
@@ -192,9 +196,7 @@ p.slide {
   padding: 16px 32px;
 }
 
-.container {
-  box-sizing: border-box;
-}
+
 
 .column {
   float: left;
@@ -249,50 +251,31 @@ p.slide {
   opacity: 1;
 }
 
-.contact-container {
-  box-sizing: border-box;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  /* padding: 0 5rem; */
-  text-align: center;
-}
-
-.contact-head {
-  float: right;
-  box-sizing: border-box;
-  display: flex;
-  width: 40%;
+.links {
+  width: 50%;
   padding: 80px;
-  text-align: center;
-  height: 40%;
-  margin: 15px;
-  margin-right: 20px;
-  line-height: 2;
-  color: black;
-  background: rgb(108, 7, 108);
-  opacity: 80%;
 }
 
-.contact-head h1 {
-  font-size: 50px;
+.contact {
+  width: 50%;
+  padding: 80px;
+}
+
+.container {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
   display: flex;
-}
-
-.icons-container {
-  padding-top: 90px;
   align-items: center;
-  
+  justify-content: space-around;
+  margin-top: 200px;
 }
 
 
 .icons {
   background: rgb(82, 75, 75);
-  display: flex;
-  justify-content: center;
   padding: 0.8rem 0;
+  display: flex;
 
 }
 .icons li {
@@ -310,23 +293,15 @@ p.slide {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
+
 .icons li:hover {
   background: rgb(232, 219, 219);
   color: black;
 }
 
 .email {
-  background: rgb(232, 219, 219);
   display: flex;
   opacity: 0.7;
-  float: left;
-  box-sizing: border-box;
-  width: 40%;
-  padding: 40px;
-  height: 40%;
-  margin: 15px;
-  margin-right: 20px;
-  margin-bottom: 70px;
 }
 
 .about-p {
@@ -337,9 +312,6 @@ p.slide {
   display: flex;
 }
 
-.email-link-container {
-  padding-left: 200px;
-}
 
 .email-link {
   border: 10px solid rgb(105, 67, 105);
@@ -348,6 +320,7 @@ p.slide {
   padding: 20px 40px;
   text-decoration: none;
   color: #101010;
+  
 }
 
 @media only screen and (max-width: 600px) {
