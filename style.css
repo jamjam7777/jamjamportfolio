@@ -273,30 +273,29 @@ p.slide {
 
 
 .icons {
-  background: rgb(82, 75, 75);
   padding: 0.8rem 0;
-  display: flex;
-
+  justify-content: center;
 }
+
 .icons li {
   list-style-type: none;
-  background: rgb(108, 7, 108);
+  background: rgb(82, 75, 75);
   color: rgb(232, 219, 219);
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin: 0 0.5rem;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .icons li:hover {
   background: rgb(232, 219, 219);
-  color: black;
+  color: rgb(108, 7, 108);
 }
 
 .email {
