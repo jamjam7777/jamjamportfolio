@@ -254,11 +254,14 @@ p.slide {
 .links {
   width: 50%;
   padding: 80px;
+  display: flex;
 }
 
 .contact {
   width: 50%;
-  padding: 80px;
+  padding:80px;
+  display: flex;
+  color: rgb(82, 75, 75);
 }
 
 .container {
@@ -268,13 +271,14 @@ p.slide {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 200px;
+  margin-top: 60px;
 }
 
 
 .icons {
   padding: 0.8rem 0;
   justify-content: center;
+  margin-top: 80px;
 }
 
 .icons li i {
@@ -356,9 +360,7 @@ p.slide {
   margin-left: 3%;
 }
 
-.linkedinATag {
-  padding: 0 !important;
-  margin: 0 !important;
-}
+
+
 
 }
