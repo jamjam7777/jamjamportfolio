@@ -257,16 +257,13 @@ p.slide {
   opacity: 1;
 }
 
-.links {
+/* .links {
   width: 50%;
   padding: 80px;
   display: flex;
-}
+} */
 
 .contact {
-  width: 50%;
-  padding:80px;
-  display: flex;
   color: rgb(82, 75, 75);
 }
 
@@ -276,7 +273,7 @@ p.slide {
   line-height: 1.3;
 }
 
-.container {
+/* .container {
   width: 1130px;
   max-width: 95%;
   margin: 0 auto;
@@ -284,7 +281,7 @@ p.slide {
   align-items: center;
   justify-content: space-around;
   margin-top: 60px;
-}
+} */
 
 
 .icons {
