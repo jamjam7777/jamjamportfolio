@@ -18,7 +18,7 @@ html {
 /* image background formatting */
 
 .bg {
-  background-image: url("https://storage.googleapis.com/bucket_la_gringa_loca/laGringaLoca/img/main.jpg");
+  background-image: url (background.jpg);
   height: 100%;
   width: 100%;
   background-position: center;
